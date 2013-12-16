@@ -1,0 +1,10 @@
+A UserService for SecureSocial that uses MongoDB
+================================================
+
+Install locally with `sbt publish-local`
+
+add `9998:com.stephenn.securesocialreactivemongo.MongoUserService` to your play.plugins
+
+maybe I should get this added to maven central or something.
+
+Tests need a local running mongodb.
